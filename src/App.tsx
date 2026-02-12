@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Lock, Unlock, Zap, Image, Video, Repeat, CheckCircle } from 'lucide-react';
 
 // マジックリンク用のトークン（定数）
