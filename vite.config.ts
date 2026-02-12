@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
+      includeAssets: ['favicon.svg'],
       manifest: {
         name: 'V-Creators Studio',
         short_name: 'V-Creators Studio',
@@ -20,7 +21,7 @@ export default defineConfig({
             src: '/favicon.svg',
             sizes: 'any',
             type: 'image/svg+xml',
-            purpose: 'any maskable',
+            purpose: 'any',
           },
         ],
       },
