@@ -10,14 +10,14 @@ export default defineConfig({
       registerType: 'autoUpdate',
       manifest: {
         name: 'V-Creators Studio',
-        short_name: 'V-Studio',
+        short_name: 'V-Creators Studio',
         description: 'VTuber素材制作のための時短ツールキット',
         theme_color: '#0f172a',
         background_color: '#0f172a',
         display: 'standalone',
         icons: [
           {
-            src: '/favicon.svg?v=2',
+            src: '/favicon.svg',
             sizes: 'any',
             type: 'image/svg+xml',
             purpose: 'any maskable',
