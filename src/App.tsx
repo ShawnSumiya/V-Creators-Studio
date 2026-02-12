@@ -126,7 +126,7 @@ function App() {
               type="text" 
               value={licenseKey}
               onChange={(e) => setLicenseKey(e.target.value)}
-              placeholder="例: ALL-PREMIUM-2025"
+              placeholder="例: ALL-xxxx-xxxx"
               className="flex-1 bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
             />
             <button 
