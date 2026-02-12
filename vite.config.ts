@@ -11,7 +11,7 @@ export default defineConfig({
       includeAssets: ['favicon.svg'],
       manifest: {
         name: 'V-Creators Studio',
-        short_name: 'V-Creators Studio',
+        short_name: 'V-Creators',
         description: 'VTuber素材制作のための時短ツールキット',
         theme_color: '#0f172a',
         background_color: '#0f172a',
